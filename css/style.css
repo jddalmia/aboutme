@@ -178,22 +178,18 @@ a:hover {
 
 
 /*----Form-----*/
-.form-control{
-
-display: block;
+input{
+    background-color: white;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 50px;
+    max-width: 450px;
     width: 100%;
-    height: calc(2.25rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 60px;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    color: #000;
 }
-
 
 /*------/ Box /------*/
 
