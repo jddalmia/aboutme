@@ -217,9 +217,12 @@ background-color: white;
 
 }
 
+
+@media screen and (min-width:1200px) and (max-width:1500px){
 .formcol{
 max-width:69%!important;
 
+}
 }
 
 
