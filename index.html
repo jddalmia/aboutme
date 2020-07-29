@@ -521,10 +521,12 @@
                   <div>
                   
                 <div class="col-lg-6">
-                <form name="contactjayant" method="POST" data-netlify="true">
-                <input type="text" class="form-control" placeholder="Full Name">
-                <input type="email" class="form-control" placeholder="Email Address">
-                <textarea class="form-control" placeholder="Message"></textarea>
+                <form name="contactjayant" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+		<input type="text" class="form-control" name="name" placeholder="Full Name">
+                <input type="email" class="form-control" name="email" placeholder="Email Address">
+                <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                <div data-netlify-recaptcha="true"></div>
+                <br>
                 <button style="outline:none;border:none;" type="submit" class="submit-button" data-aos="zoom-in">SUBMIT <i class="fa fa-angle-right" aria-hidden="true"></i></button>
 	              	</form>
                  </div>
